@@ -9,6 +9,9 @@ Jellyfin Server is typically only supported on the most recently released versio
 | 10.6.4  | :white_check_mark: |
 | < 10.6.3| :x:                |
 
+## Supported Versions of other Jellyfin Projects (Plugins, Clients, etc.)
+Most Jellyfin projects are only supported for their most recent release. Please see any project's readme for cases where this may differ.
+
 
 ## Reporting a Vulnerability
 

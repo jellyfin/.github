@@ -1,0 +1,5 @@
+{
+    "name": "Jellyfin - PR Description Enforcer",
+    "description": "Template action to enforce PR descriptions have been added and do not match the template",
+    "iconName": "jellyfin"
+}

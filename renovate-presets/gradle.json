@@ -4,9 +4,9 @@
   "extends": ["github>jellyfin/.github//renovate-presets"],
   "packageRules": [
     {
-      "description": "Add the java GitHub label to Gradle dependency bump PRs",
+      "description": "Add the gradle GitHub label to Gradle dependency bump PRs",
       "matchManagers": ["gradle"],
-      "labels": ["java"]
+      "labels": ["gradle"]
     },
     {
       "description": "Ensure Gradle Wrapper bump PRs are disabled",

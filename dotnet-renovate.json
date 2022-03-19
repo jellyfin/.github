@@ -4,10 +4,12 @@
   "extends": ["github>jellyfin/.github"],
   "packageRules": [
     {
+      "description": "Add the nuget GitHub label to NuGet dependency bump PRs",
       "matchManagers": ["nuget"],
       "labels": ["nuget"]
     },
     {
+      "description": "Group NuGet bumps to one PR as lonng as they have no major jump",
       "matchDepTypes": ["nuget"],
       "groupName": ".Net dependencies",
       "groupSlug": "dotnet-deps",

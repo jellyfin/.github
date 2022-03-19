@@ -13,16 +13,24 @@
   "labels": ["dependencies"],
   "dependencyDashboard": false,
   "internalChecksFilter": "strict",
+  "prHourlyLimit": 2,
+  "rebaseWhen": "conflicted",
+  "vulnerabilityAlerts": {
+    "addLabels": ["security"]
+  },
   "packageRules": [
     {
+      "description": "Add the container GitHub label to container image bump PRs",
       "matchManagers": ["docker"],
       "labels": ["container"]
     },
     {
+      "description": "Add the ci and github-actions GitHub label to GitHub Action bump PRs",
       "matchManagers": ["github-actions"],
       "labels": ["ci", "github-actions"]
     },
     {
+      "description": "Group GitHub Action bumps to one PR as lonng as they have no major jump",
       "matchDepTypes": ["action"],
       "groupName": "CI dependencies",
       "groupSlug": "ci-deps",

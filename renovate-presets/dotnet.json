@@ -9,7 +9,7 @@
       "labels": ["nuget"]
     },
     {
-      "description": "Group NuGet bumps to one PR as lonng as they have no major jump",
+      "description": "Group NuGet bumps to one PR as long as they have no major jump",
       "matchDepTypes": ["nuget"],
       "groupName": ".Net dependencies",
       "groupSlug": "dotnet-deps",

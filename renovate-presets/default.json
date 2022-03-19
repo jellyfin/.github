@@ -30,7 +30,7 @@
       "labels": ["ci", "github-actions"]
     },
     {
-      "description": "Group GitHub Action bumps to one PR as lonng as they have no major jump",
+      "description": "Group GitHub Action bumps to one PR as long as they have no major jump",
       "matchDepTypes": ["action"],
       "groupName": "CI dependencies",
       "groupSlug": "ci-deps",

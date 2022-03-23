@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default preset for use with Jellyfin's .Net repos",
+  "extends": ["github>jellyfin/.github//renovate-presets"],
+  "packageRules": [
+    {
+      "description": "Add the nuget GitHub label to NuGet dependency bump PRs",
+      "matchManagers": ["nuget"],
+      "labels": ["nuget"]
+    },
+    {
+      "description": "Group NuGet bumps to one PR as long as they have no major jump",
+      "matchDepTypes": ["nuget"],
+      "groupName": ".Net dependencies",
+      "groupSlug": "dotnet-deps",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
+    }
+  ]
+}

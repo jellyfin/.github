@@ -13,5 +13,24 @@
       "matchDepTypes": ["gradle-wrapper"],
       "enabled": false
     }
-  ]
+  ],
+  "group": {
+    "packageRules": [
+      {
+        "groupName": "Kotlin",
+        "matchPackagePrefixes": [
+          "org.jetbrains.kotlin"
+        ],
+        "matchPackageNames": [
+          "com.google.devtools.ksp"
+        ]
+      },
+      {
+        "groupName": "detekt",
+        "matchPackagePrefixes": [
+          "io.gitlab.arturbosch.detekt"
+        ]
+      }
+    ]
+  }
 }

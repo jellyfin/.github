@@ -12,25 +12,21 @@
       "description": "Ensure Gradle Wrapper bump PRs are disabled",
       "matchDepTypes": ["gradle-wrapper"],
       "enabled": false
+    },
+    {
+      "groupName": "Kotlin",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlin"
+      ],
+      "matchPackageNames": [
+        "com.google.devtools.ksp"
+      ]
+    },
+    {
+      "groupName": "detekt",
+      "matchPackagePrefixes": [
+        "io.gitlab.arturbosch.detekt"
+      ]
     }
-  ],
-  "group": {
-    "packageRules": [
-      {
-        "groupName": "Kotlin",
-        "matchPackagePrefixes": [
-          "org.jetbrains.kotlin"
-        ],
-        "matchPackageNames": [
-          "com.google.devtools.ksp"
-        ]
-      },
-      {
-        "groupName": "detekt",
-        "matchPackagePrefixes": [
-          "io.gitlab.arturbosch.detekt"
-        ]
-      }
-    ]
-  }
+  ]
 }

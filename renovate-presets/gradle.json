@@ -35,12 +35,6 @@
       ]
     },
     {
-      "groupName": "kotest",
-      "matchPackagePrefixes": [
-        "io.kotest"
-      ]
-    },
-    {
       "groupName": "aboutlibraries",
       "matchPackagePrefixes": [
         "com.mikepenz.aboutlibraries",

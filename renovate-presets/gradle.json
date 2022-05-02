@@ -27,6 +27,25 @@
       "matchPackagePrefixes": [
         "io.gitlab.arturbosch.detekt"
       ]
+    },
+    {
+      "groupName": "kotest",
+      "matchPackagePrefixes": [
+        "io.kotest"
+      ]
+    },
+    {
+      "groupName": "kotest",
+      "matchPackagePrefixes": [
+        "io.kotest"
+      ]
+    },
+    {
+      "groupName": "aboutlibraries",
+      "matchPackagePrefixes": [
+        "com.mikepenz.aboutlibraries",
+        "com.mikepenz:aboutlibraries"
+      ]
     }
   ]
 }

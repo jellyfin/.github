@@ -10,7 +10,7 @@
     "group:testNonMajor",
     "group:monorepos"
   ],
-  "labels": ["dependencies"],
+  "addLabels": ["dependencies"],
   "dependencyDashboard": false,
   "internalChecksFilter": "strict",
   "prHourlyLimit": 2,
@@ -22,12 +22,12 @@
     {
       "description": "Add the container GitHub label to container image bump PRs",
       "matchManagers": ["docker"],
-      "labels": ["container"]
+      "addLabels": ["container"]
     },
     {
       "description": "Add the ci and github-actions GitHub label to GitHub Action bump PRs",
       "matchManagers": ["github-actions"],
-      "labels": ["ci", "github-actions"]
+      "addLabels": ["ci", "github-actions"]
     },
     {
       "description": "Group GitHub Action bumps to one PR as long as they have no major jump",

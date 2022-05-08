@@ -6,7 +6,7 @@
     {
       "description": "Add the gradle GitHub label to Gradle dependency bump PRs",
       "matchManagers": ["gradle"],
-      "labels": ["gradle"]
+      "addLabels": ["gradle"]
     },
     {
       "description": "Ensure Gradle Wrapper bump PRs are disabled",

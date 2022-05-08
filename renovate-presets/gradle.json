@@ -6,7 +6,7 @@
     {
       "description": "Add the gradle GitHub label to Gradle dependency bump PRs",
       "matchManagers": ["gradle"],
-      "labels": ["gradle"]
+      "addLabels": ["gradle"]
     },
     {
       "description": "Ensure Gradle Wrapper bump PRs are disabled",
@@ -14,6 +14,7 @@
       "enabled": false
     },
     {
+      "description": "Group Kotlin specific dependencies",
       "groupName": "Kotlin",
       "matchPackagePrefixes": [
         "org.jetbrains.kotlin"
@@ -23,18 +24,21 @@
       ]
     },
     {
+      "description": "Group Detekt specific dependencies",
       "groupName": "detekt",
       "matchPackagePrefixes": [
         "io.gitlab.arturbosch.detekt"
       ]
     },
     {
+      "description": "Group Kotest specific dependencies",
       "groupName": "kotest",
       "matchPackagePrefixes": [
         "io.kotest"
       ]
     },
     {
+      "description": "Group AboutLibraries specific dependencies",
       "groupName": "aboutlibraries",
       "matchPackagePrefixes": [
         "com.mikepenz.aboutlibraries",

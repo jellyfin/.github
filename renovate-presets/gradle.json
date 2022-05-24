@@ -44,6 +44,14 @@
         "com.mikepenz.aboutlibraries",
         "com.mikepenz:aboutlibraries"
       ]
+    },
+    {
+      "description": "Group ExoPlayer specific dependencies",
+      "groupName": "exoplayer",
+      "matchPackagePrefixes": [
+        "com.google.android.exoplayer",
+        "org.jellyfin.exoplayer:exoplayer-ffmpeg-extension"
+      ]
     }
   ]
 }

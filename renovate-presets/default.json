@@ -3,22 +3,21 @@
   "description": "Default preset for use with Jellyfin's repos",
   "extends": [
     "config:base",
-    "helpers:pinGitHubActionDigests",
-    ":rebaseStalePrs",
+    ":disableDependencyDashboard",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":prHourlyLimit2",
+    ":prConcurrentLimit20",
     ":semanticCommits",
     ":semanticCommitScope(deps)",
+    ":timezone(Etc/UTC)",
     "docker:enableMajor",
     "group:testNonMajor",
-    "group:monorepos"
+    "group:monorepos",
+    "helpers:pinGitHubActionDigests"
   ],
   "addLabels": ["dependencies"],
-  "dependencyDashboard": false,
   "internalChecksFilter": "strict",
-  "prHourlyLimit": 2,
   "rebaseWhen": "conflicted",
-  "vulnerabilityAlerts": {
-    "addLabels": ["security"]
-  },
   "packageRules": [
     {
       "description": "Add the container GitHub label to container image bump PRs",

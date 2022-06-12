@@ -10,7 +10,7 @@
     },
     {
       "description": "Group NuGet bumps to one PR as long as they have no major jump",
-      "matchDepTypes": ["nuget"],
+      "matchManagers": ["nuget"],
       "groupName": ".Net dependencies",
       "groupSlug": "dotnet-deps",
       "matchUpdateTypes": [

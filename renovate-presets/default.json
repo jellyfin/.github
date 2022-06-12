@@ -31,7 +31,7 @@
     },
     {
       "description": "Group GitHub Action bumps to one PR as long as they have no major jump",
-      "matchDepTypes": ["action"],
+      "matchManagers": ["github-actions"],
       "groupName": "CI dependencies",
       "groupSlug": "ci-deps",
       "matchUpdateTypes": [

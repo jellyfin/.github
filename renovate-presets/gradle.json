@@ -10,7 +10,7 @@
     },
     {
       "description": "Ensure Gradle Wrapper bump PRs are disabled",
-      "matchDepTypes": ["gradle-wrapper"],
+      "matchManagers": ["gradle-wrapper"],
       "enabled": false
     },
     {

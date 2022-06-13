@@ -5,7 +5,6 @@
     "config:base",
     ":disableDependencyDashboard",
     ":enableVulnerabilityAlertsWithLabel(security)",
-    ":prConcurrentLimit20",
     ":semanticCommits",
     ":semanticCommitScope(deps)",
     ":timezone(Etc/UTC)",

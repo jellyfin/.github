@@ -58,7 +58,7 @@
       "matchPackagePrefixes": [
         "org.videolan.android"
       ],
-      "allowedVersions": "!/-eap\d+$/"
+      "allowedVersions": "!/-eap\\d+$/"
     }
   ]
 }

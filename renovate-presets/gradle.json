@@ -52,6 +52,13 @@
         "com.google.android.exoplayer",
         "org.jellyfin.exoplayer:exoplayer-ffmpeg-extension"
       ]
+    },
+    {
+      "description": "Ignore LibVLC early access previews",
+      "matchPackagePrefixes": [
+        "org.videolan.android"
+      ],
+      "allowedVersions": "!/-eap\d+$/"
     }
   ]
 }

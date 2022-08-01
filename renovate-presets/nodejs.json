@@ -1,0 +1,101 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default preset for use with Jellyfin's Node.js repos",
+  "extends": ["github>jellyfin/.github//renovate-presets/default"],
+  "npm": {
+    "stabilityDays": 3
+  },
+  "packageRules": [
+    {
+      "description": "Add the npm GitHub label to NPM dependency bump PRs",
+      "matchManagers": ["npm"],
+      "addLabels": ["npm"]
+    },
+    {
+      "description": "Group linter specific dependencies",
+      "groupName": "Linters",
+      "extends": [
+        "packages:emberTemplateLint",
+        "packages:eslint",
+        "packages:stylelint",
+        "packages:tslint"
+      ],
+      "matchPackageNames": [
+        "remark-lint"
+      ]
+    },
+    {
+      "description": "Group test specific dependencies",
+      "groupName": "Tests",
+      "extends": [
+        "packages:unitTest"
+      ]
+    },
+    {
+      "description": "Group React specific dependencies",
+      "groupName": "React",
+      "matchPackagePrefixes": [
+        "react"
+      ],
+      "matchPackageNames": [
+        "@types/react",
+        "@types/react-helmet",
+        "@types/react-router-dom"
+      ]
+    },
+    {
+      "description": "Group TypeScript specific dependencies",
+      "groupName": "TypeScript",
+      "matchPackagePrefixes": [
+        "typescript"
+      ]
+    },
+    {
+      "description": "Group Docusaurus specific dependencies",
+      "groupName": "Docusaurus",
+      "matchPackagePrefixes": [
+        "@docusaurus"
+      ],
+      "matchPackageNames": [
+        "@tsconfig/docusaurus"
+      ]
+    },
+    {
+      "description": "Group Prettier specific dependencies",
+      "groupName": "Prettier",
+      "matchPackagePrefixes": [
+        "prettier"
+      ]
+    },
+    {
+      "description": "Group Babel specific dependencies",
+      "groupName": "Babel",
+      "matchPackagePrefixes": [
+        "@babel",
+        "babel"
+      ]
+    },
+    {
+      "description": "Group PostCSS specific dependencies",
+      "groupName": "PostCSS",
+      "matchPackagePrefixes": [
+        "postcss"
+      ]
+    },
+    {
+      "description": "Group Webpack specific dependencies",
+      "groupName": "Webpack",
+      "matchPackagePrefixes": [
+        "webpack",
+        "ts-loader"
+      ]
+    },
+    {
+      "description": "Group font specific dependencies",
+      "groupName": "Fonts",
+      "matchPackagePrefixes": [
+        "@fontsource"
+      ]
+    }
+  ]
+}

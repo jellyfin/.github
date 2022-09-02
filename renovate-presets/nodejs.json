@@ -3,7 +3,7 @@
   "description": "Default preset for use with Jellyfin's Node.js repos",
   "extends": ["github>jellyfin/.github//renovate-presets/default"],
   "npm": {
-    "stabilityDays": 3
+    "stabilityDays": 7
   },
   "packageRules": [
     {

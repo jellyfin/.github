@@ -6,6 +6,7 @@
     "stabilityDays": 7
   },
   "rangeStrategy": "pin",
+  "ignoreDeps": ["npm", "node"],
   "packageRules": [
     {
       "description": "Add the npm GitHub label to NPM dependency bump PRs",

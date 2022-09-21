@@ -88,8 +88,11 @@
       "description": "Group Webpack specific dependencies",
       "groupName": "Webpack",
       "matchPackagePrefixes": [
-        "webpack",
-        "ts-loader"
+        "webpack"
+      ],
+      "matchPackagePatterns": [
+        "-webpack-plugin$",
+        "-loader$"
       ]
     },
     {

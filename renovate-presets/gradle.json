@@ -54,6 +54,13 @@
       ]
     },
     {
+      "description": "Group Koin specific dependencies",
+      "groupName": "koin",
+      "matchPackagePrefixes": [
+        "io.insertkoin"
+      ]
+    },
+    {
       "description": "Ignore LibVLC early access previews",
       "matchPackagePrefixes": [
         "org.videolan.android"

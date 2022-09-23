@@ -57,7 +57,7 @@
       "description": "Group Koin specific dependencies",
       "groupName": "koin",
       "matchPackagePrefixes": [
-        "io.insertkoin"
+        "io.insert-koin"
       ]
     },
     {

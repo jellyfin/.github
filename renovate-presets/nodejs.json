@@ -41,6 +41,7 @@
       ],
       "matchPackageNames": [
         "@types/react",
+        "@types/react-dom",
         "@types/react-helmet",
         "@types/react-router-dom"
       ]

@@ -7,6 +7,14 @@
       "description": "Add the nuget GitHub label to NuGet dependency bump PRs",
       "matchManagers": ["nuget"],
       "addLabels": ["nuget"]
+    },
+    {
+      "description": "Group Microsoft dependencies",
+      "groupName": "Microsoft",
+      "matchPackagePrefixes": [
+        "System.*",
+        "Microsoft.*"
+      ]
     }
   ]
 }

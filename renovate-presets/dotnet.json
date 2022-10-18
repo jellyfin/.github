@@ -7,16 +7,6 @@
       "description": "Add the nuget GitHub label to NuGet dependency bump PRs",
       "matchManagers": ["nuget"],
       "addLabels": ["nuget"]
-    },
-    {
-      "description": "Group NuGet bumps to one PR as long as they have no major jump",
-      "matchManagers": ["nuget"],
-      "groupName": ".Net dependencies",
-      "groupSlug": "dotnet-deps",
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ]
     }
   ]
 }

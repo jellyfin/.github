@@ -94,6 +94,9 @@
       "matchPackagePatterns": [
         "-webpack-plugin$",
         "-loader$"
+      ],
+      "matchPackageNames": [
+        "mini-css-extract-plugin"
       ]
     },
     {

@@ -16,6 +16,7 @@
   "addLabels": ["dependencies"],
   "internalChecksFilter": "strict",
   "rebaseWhen": "conflicted",
+  "ignorePaths": ["**/node_modules/**", "**/bower_components/**"],
   "packageRules": [
     {
       "description": "Add the container GitHub label to container image bump PRs",

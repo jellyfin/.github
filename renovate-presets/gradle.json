@@ -11,7 +11,7 @@
     {
       "description": "Ensure Gradle Wrapper bump PRs are disabled",
       "matchManagers": ["gradle-wrapper"],
-      "enabled": false
+      "addLabels": ["gradle-wrapper"]
     },
     {
       "description": "Group Kotlin specific dependencies",

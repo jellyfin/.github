@@ -9,7 +9,7 @@
       "addLabels": ["gradle"]
     },
     {
-      "description": "Ensure Gradle Wrapper bump PRs are disabled",
+      "description": "Add the gradle-wrapper GitHub label to Gradle wrapper depdency bump PRs",
       "matchManagers": ["gradle-wrapper"],
       "addLabels": ["gradle-wrapper"]
     },

@@ -1,11 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default preset for use with Jellyfin's Node.js repos",
-  "extends": ["github>jellyfin/.github//renovate-presets/default"],
+  "extends": [
+    "github>jellyfin/.github//renovate-presets/default",
+    ":pinAllExceptPeerDependencies"
+  ],
   "npm": {
     "stabilityDays": 7
   },
-  "rangeStrategy": "pin",
   "ignoreDeps": ["npm", "node"],
   "packageRules": [
     {

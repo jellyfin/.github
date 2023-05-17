@@ -9,7 +9,8 @@
     "docker:enableMajor",
     "group:testNonMajor",
     "group:monorepos",
-    "helpers:pinGitHubActionDigests"
+    "helpers:pinGitHubActionDigests",
+    ":prConcurrentLimitNone"
   ],
   "addLabels": ["dependencies"],
   "internalChecksFilter": "strict",

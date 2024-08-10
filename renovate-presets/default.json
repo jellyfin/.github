@@ -5,6 +5,7 @@
     "config:base",
     ":disableDependencyDashboard",
     ":enableVulnerabilityAlertsWithLabel(security)",
+    ":semanticCommitsDisabled",
     ":timezone(Etc/UTC)",
     "docker:enableMajor",
     "group:testNonMajor",

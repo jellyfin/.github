@@ -88,6 +88,16 @@
       ]
     },
     {
+      "description": "Group Vitest specific dependencies",
+      "groupName": "Vitest",
+      "matchPackagePrefixes": [
+        "@vitest"
+      ],
+      "matchPackageNames": [
+        "vitest"
+      ]
+    },
+    {
       "description": "Group Webpack specific dependencies",
       "groupName": "Webpack",
       "matchPackagePrefixes": [

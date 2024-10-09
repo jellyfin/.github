@@ -88,6 +88,14 @@
       ]
     },
     {
+      "description": "Group Sass specific dependencies",
+      "groupName": "Sass",
+      "matchPackageNames": [
+        "sass",
+        "sass-embedded"
+      ]
+    },
+    {
       "description": "Group Vitest specific dependencies",
       "groupName": "Vitest",
       "matchPackagePrefixes": [

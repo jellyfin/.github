@@ -3,6 +3,7 @@
   "description": "Default preset for use with Jellyfin's repos",
   "extends": [
     "config:base",
+    ":disableDependencyDashboard",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":semanticCommitsDisabled",
     ":timezone(Etc/UTC)",

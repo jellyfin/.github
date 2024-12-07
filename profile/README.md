@@ -18,6 +18,7 @@ media solution. We welcome anyone who is interested in joining us in that quest!
 
 Please see the following helpful links for more details:
 
+* [Our Server and Client downloads page](https:/jellyfin.org/downloads/)
 * [Our documentation pages](https://jellyfin.org/docs/)
 * [Our project history, philsophy, and core team](https://jellyfin.org/about/)
 * [Our blog highlighting new releases and important information](https://jellyfin.org/posts/)

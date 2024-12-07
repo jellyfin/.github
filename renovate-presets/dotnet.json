@@ -16,5 +16,8 @@
         "Microsoft.*"
       ]
     }
+  ],
+  "ignoreDeps": [
+    "dotnet-sdk"
   ]
 }

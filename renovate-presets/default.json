@@ -13,9 +13,15 @@
     "helpers:pinGitHubActionDigests"
   ],
   "addLabels": ["dependencies"],
-  "internalChecksFilter": "strict",
   "rebaseWhen": "conflicted",
   "ignorePaths": ["**/node_modules/**", "**/bower_components/**"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "groupName": "lockfiles",
+    "schedule": [
+      "every month"
+    ]
+  },
   "packageRules": [
     {
       "description": "Add the container GitHub label to container image bump PRs",
@@ -36,6 +42,13 @@
         "minor",
         "patch"
       ]
+    },
+    {
+      "matchUpdateTypes": [
+        "lockFileMaintenance"
+      ],
+      "groupName": "lockfiles",
+      "dependencyDashboardApproval": true
     }
   ]
 }

@@ -8,9 +8,9 @@ Jellyfin provides media streaming from a dedicated, self-hosted server to end-us
 The [Jellyfin server](https://github.com/jellyfin/jellyfin) is built on the .NET Core framework to enable full cross-platform
 operation, and supports multiple flavours of Linux, Windows, and MacOS as a server. Plugins, both 1st and 3rd party, provide
 additional functionality for everything from reporting, to additional metadata, to authentication. We provide clients for many
-common devices including [Web browsers](https://github.com/jellyfin/jellyfin-web), [Android Smartphones](https://github.com/jellyfin/jellyfin-android),
-[AndroidTV](https://github.com/jellyfin/jellyfin-androidtv), [Roku](https://github.com/jellyfin/jellyfin-roku),
-and many more.
+common devices including [Web browsers](https://github.com/jellyfin/jellyfin-web), [Android](https://github.com/jellyfin/jellyfin-android)
+and [iOS](https://github.com/jellyfin/jellyfin-ios) Smartphones, [AndroidTV](https://github.com/jellyfin/jellyfin-androidtv) (including Amazon FireTV),
+[Roku](https://github.com/jellyfin/jellyfin-roku), and many more.
 
 With Jellyfin, there are no strings attached, no premium licenses or features, no centralized servers, and no cost to you. Our team is entirely
 volunteer-driven and committed to building the best possible community-focused [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)

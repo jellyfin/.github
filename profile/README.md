@@ -5,7 +5,7 @@
 [Jellyfin is the Free Software Media System](https://jellyfin.org) that puts you in control of managing and streaming your media.
 
 Jellyfin provides media streaming from a dedicated, self-hosted server to end-user devices via multiple client apps or the web.
-The [Jellyfin server](https://github.com/jellyfin/jellyfin) is built on the .NET Core framework to enable full cross-platform
+The [Jellyfin server](https://github.com/jellyfin/jellyfin) is built on the .NET platform to enable full cross-platform
 operation, and supports multiple flavours of Linux, Windows, and macOS as a server. Plugins, both 1st and 3rd party, provide
 additional functionality for everything from reporting, to additional metadata, to authentication. We provide clients for many
 common devices including [Web browsers](https://github.com/jellyfin/jellyfin-web), [Desktops](https://github.com/jellyfin/jellyfin-media-player) (including Linux, Windows, and macOS),

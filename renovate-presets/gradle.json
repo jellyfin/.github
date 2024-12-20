@@ -46,8 +46,8 @@
       ]
     },
     {
-      "description": "Group Media3 specific dependencies",
-      "groupName": "Media3",
+      "description": "Group androidx.media3 specific dependencies",
+      "groupName": "androidx.media3",
       "matchPackagePrefixes": [
         "androidx.media3",
         "org.jellyfin.media3:media3-ffmpeg-decoder"

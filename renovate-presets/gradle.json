@@ -46,11 +46,11 @@
       ]
     },
     {
-      "description": "Group ExoPlayer specific dependencies",
-      "groupName": "exoplayer",
+      "description": "Group Media3 specific dependencies",
+      "groupName": "Media3",
       "matchPackagePrefixes": [
-        "com.google.android.exoplayer",
-        "org.jellyfin.exoplayer:exoplayer-ffmpeg-extension"
+        "androidx.media3",
+        "org.jellyfin.media3:media3-ffmpeg-decoder"
       ]
     },
     {

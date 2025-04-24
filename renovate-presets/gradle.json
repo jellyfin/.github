@@ -61,11 +61,11 @@
       ]
     },
     {
-      "description": "Ignore LibVLC early access previews",
+      "description": "Group androidx.compose specific dependencies",
+      "groupName": "androidx.compose",
       "matchPackagePrefixes": [
-        "org.videolan.android"
-      ],
-      "allowedVersions": "!/-eap\\d+$/"
+        "androidx.compose"
+      ]
     }
   ]
 }

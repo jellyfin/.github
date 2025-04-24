@@ -66,6 +66,6 @@
       "matchPackagePrefixes": [
         "androidx.compose"
       ]
-    },
+    }
   ]
 }

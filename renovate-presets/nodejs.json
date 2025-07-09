@@ -53,6 +53,9 @@
       "groupName": "TypeScript",
       "matchPackagePrefixes": [
         "typescript"
+      ],
+      "matchPackageNames": [
+        "!typescript-eslint"
       ]
     },
     {

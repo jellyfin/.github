@@ -14,7 +14,7 @@ Most Jellyfin projects are only supported for their most recent release. Please 
 
 We ask you to please review the following details before reporting an issue.
 
-* We are aware that many Administrator-level API endpoints may have inherent security risks. Due to the internal details of Jellyfin works, many of these are unavoidable, and we expect users to understand that providing Administrator access to a Jellyfin server is very sensitive and requires careful consider. We consider any vulnerabilities that **exclusively require administrator-level privileges** to be a low priority, and those should be disclosed in normal GitHub Issues and shall be considered and fixed like any other bug, if possible.
+* We are aware that many Administrator-level API endpoints may have inherent security risks. Due to the internal details of Jellyfin works, many of these are unavoidable, and we expect users to understand that providing Administrator access to a Jellyfin server is very sensitive and requires careful consideration. We consider any vulnerabilities that **exclusively require administrator-level privileges** to be a low priority, and those should be disclosed in normal GitHub Issues and shall be considered and fixed like any other bug, if possible.
 
 * We have a public list of known (mostly Administrator-level as mentioned above) vulnerabilities in [this issue on the main repository](https://github.com/jellyfin/jellyfin/issues/5415). If your vulnerability is **already disclosed there**, please do not duplicate effort by re-reporting it to our security team.
 

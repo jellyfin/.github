@@ -25,7 +25,8 @@
         "packages:tslint"
       ],
       "matchPackageNames": [
-        "remark-lint"
+        "remark-lint",
+        "@vitest/eslint-plugin"
       ]
     },
     {

@@ -24,7 +24,7 @@ We ask you to please review the following details before reporting an issue.
 
 * We **do not offer bounties** in any form. We request that you report bugs to help the software, not to make some quick money; after all, none of us who are fixing them are paid either.
 
-* Do not overexaggerate vulnerability scores. Calling something a 9 or 10 will not get it seen/addressed any faster just because of this. Score your volnerabilities appropriately.
+* Do not overexaggerate vulnerability scores. Calling something a 9 or 10 will not get it seen/addressed any faster just because of this. Score your vulnerabilities appropriately.
 
 * Vulnerability reports about our project infrastructure (our forums, servers, CI/CD, etc.) are welcome, but please tag those separately with `[Jellyfin Infrastructure]` in the email subject instead of the tag mentioned below. Please also be aware that our server infrastructure team does follow the news and has a standard patch policy, so duplicating publicly-known vulnerabilities here is not usually necessary.
 
@@ -48,7 +48,7 @@ Once a report is received, it will be reviewed and, if applicable, we will creat
 
 ## Post-Disclosure Process
 
-As a pure voluneer project, **we recognize that we may sometimes be slow to handle vulnerabilities**; we greatly **appreciate patience and the absence of arbitrary timelines for disclosures**, especially for complex vulnerabilities. This includes initial responses. You are welcome to send follow-up emails if things go too long without a reply, though please remain polite and patient.
+As a pure volunteer project, **we recognize that we may sometimes be slow to handle vulnerabilities**; we greatly **appreciate patience and the absence of arbitrary timelines for disclosures**, especially for complex vulnerabilities. This includes initial responses. You are welcome to send follow-up emails if things go too long without a reply, though please remain polite and patient.
 
 Generally speaking, unless we are very close to a new major release, we will create a point release for any fixes for major vulnerabilities as soon as possible. When close to a new major release, we may wish to defer the fix to the major release instead to avoid duplicated work.
 

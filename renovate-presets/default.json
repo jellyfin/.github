@@ -49,6 +49,12 @@
       ],
       "groupName": "lockfiles",
       "dependencyDashboardApproval": true
+    },
+    {
+      "description": "Ignore the meta-plugins actions to avoid notification spam",
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["jellyfin/jellyfin-meta-plugins"],
+      "enabled": false
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default preset for use with Jellyfin's plugin repos",
+  "extends": ["github>jellyfin/.github//renovate-presets/dotnet"],
+  "packageRules": [
+    {
+      "description": "Always track master branch for jellyfin meta-plugins",
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["jellyfin/jellyfin-meta-plugins"],
+      "allowedVersions": "/^master$/"
+    },
+    {
+      "description": "Ignore Microsoft dependencies",
+      "matchDatasources": ["nuget"],
+      "matchPackagePatterns": [
+        "^Microsoft\\.",
+        "^System\\."
+      ],
+      "enabled": false
+    }
+  ]
+}

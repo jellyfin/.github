@@ -7,7 +7,9 @@
       "description": "Always track master branch for jellyfin meta-plugins",
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["jellyfin/jellyfin-meta-plugins"],
-      "allowedVersions": "/^master$/"
+      "allowedVersions": "/^master$/",
+      "pinDigests": false,
+      "rangeStrategy": "replace"
     },
     {
       "description": "Ignore Microsoft dependencies",

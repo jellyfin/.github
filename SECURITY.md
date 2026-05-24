@@ -36,13 +36,15 @@ Alternatively, you **may create a private Matrix room** (NOT a DM!) and invite [
 
 When providing a report, please ensure that you:
 
-1. Begin your e-mail subject with `[Jellyfin Security]` or your private Matrix room with some variation thereof. Most of us get a very large number of emails per day, and without this tag, they are very likely to be missed.
+1. Begin your e-mail subject with `[Jellyfin Security]` or your private Matrix room with some variation thereof.
 
-2. Start with an "overview" section, **written for public view**, that describes at a high level what is affected, and the possible consequences. Ideally, we will use this verbatim as the description of the GHSA that will be released to the public.
+2. For email write only in **plain text**; do not use HTML, special formatting, embedded images, etc.
 
-3. Continue on with a "details" section outlining any code or API investigation you have done and, if possible, any suggested fixes. Please provide as much context and detail as you can, including, ideally, a process for reliably triggering the vulnerability so we may test fixes with it.
+3. Start with an "overview" section, **written for public view**, that describes at a high level what is affected, and the possible consequences. Ideally, we will use this verbatim as the description of the GHSA that will be released to the public.
 
-4. Please provide your GitHub username so we may invite you into the GHSA and provide proper credit.
+4. Continue on with a "details" section outlining any code or API investigation you have done and, if possible, any suggested fixes. Please provide as much context and detail as you can, including, ideally, a process for reliably triggering the vulnerability so we may test fixes with it.
+
+5. Please provide your GitHub username and (optionally if desired; please specify) real name so we may invite you into the GHSA and provide proper credit.
 
 Once a report is received, it will be reviewed and, if applicable, we will create a GHSA and invite the reporter as well as the relevant team(s) to discuss the issue and work towards a fix.
 

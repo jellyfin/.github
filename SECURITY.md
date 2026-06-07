@@ -34,7 +34,7 @@ Once self-triaged and found to be a new and relevant vulnerability, please reach
 
 When providing a report, please ensure that you:
 
-1. Begin your e-mail subject with `[Jellyfin Security]` or your private Matrix room with some variation thereof.
+1. Begin your e-mail subject with `[Jellyfin Security]`.
 
 2. For email write only in **plain text**; do not use HTML, special formatting, embedded images, etc.
 

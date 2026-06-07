@@ -30,17 +30,15 @@ We ask you to please review the following details before reporting an issue.
 
 ## Reporting a Vulnerability
 
-Once self-triaged and found to be a new and relevant vulnerability, please reach out for responsible disclosure via **an email to `security <at> jellyfin <dot> org`**. This is the preferred method as it is seen by the most people.
-
-Alternatively, you **may create a private Matrix room** (NOT a DM!) and invite [@joshuaboniface to it](https://jellyfin.org/docs/general/about/#core-team); he will then invite other members as appropriate. Please label the room clearly with `Jellyfin Security Issue` or some variation thereof to avoid him rejecting unclear unsolicited room invites.
+Once self-triaged and found to be a new and relevant vulnerability, please reach out for responsible disclosure via **an email to `security <at> jellyfin <dot> org`**. We do not accept ANY other methods of reporting vulnerabilities privately, as we have a number of workflows built around this email.
 
 When providing a report, please ensure that you:
 
-1. Begin your e-mail subject with `[Jellyfin Security]` or your private Matrix room with some variation thereof.
+1. Begin your e-mail subject with `[Jellyfin Security]`.
 
 2. For email write only in **plain text**; do not use HTML, special formatting, embedded images, etc.
 
-3. Start with an "overview" section, **written for public view**, that describes at a high level what is affected, and the possible consequences. Ideally, we will use this verbatim as the description of the GHSA that will be released to the public.
+3. Start with an "overview" section, **written for public view**, that describes at a high level what is affected, and the possible consequences. Ideally, we will use this verbatim as the **public, user-facing** description of the GHSA.
 
 4. Continue on with a "details" section outlining any code or API investigation you have done and, if possible, any suggested fixes. Please provide as much context and detail as you can, including, ideally, a process for reliably triggering the vulnerability so we may test fixes with it.
 

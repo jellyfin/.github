@@ -30,7 +30,7 @@ We ask you to please review the following details before reporting an issue.
 
 ## Reporting a Vulnerability
 
-Once self-triaged and found to be a new and relevant vulnerability, please reach out for responsible disclosure via **an email to `security <at> jellyfin <dot> org`**. We do not accept ANY other methods of reporting vulnerabilitys responsibly, as we have a number of workflows built around this email.
+Once self-triaged and found to be a new and relevant vulnerability, please reach out for responsible disclosure via **an email to `security <at> jellyfin <dot> org`**. We do not accept ANY other methods of reporting vulnerabilities privately, as we have a number of workflows built around this email.
 
 When providing a report, please ensure that you:
 

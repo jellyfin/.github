@@ -14,9 +14,9 @@
     {
       "description": "Ignore Microsoft dependencies",
       "matchDatasources": ["nuget"],
-      "matchPackagePatterns": [
-        "^Microsoft\\.",
-        "^System\\."
+      "matchPackageNames": [
+        "/^Microsoft\\./",
+        "/^System\\./"
       ],
       "enabled": false
     },

@@ -39,10 +39,8 @@
     {
       "description": "Group React specific dependencies",
       "groupName": "React",
-      "matchPackagePrefixes": [
-        "react"
-      ],
       "matchPackageNames": [
+        "react**",
         "@types/react",
         "@types/react-dom",
         "@types/react-helmet",
@@ -52,43 +50,39 @@
     {
       "description": "Group TypeScript specific dependencies",
       "groupName": "TypeScript",
-      "matchPackagePrefixes": [
-        "typescript"
-      ],
       "matchPackageNames": [
+        "typescript**",
         "!typescript-eslint"
       ]
     },
     {
       "description": "Group Docusaurus specific dependencies",
       "groupName": "Docusaurus",
-      "matchPackagePrefixes": [
-        "@docusaurus"
-      ],
       "matchPackageNames": [
+        "@docusaurus**",
         "@tsconfig/docusaurus"
       ]
     },
     {
       "description": "Group Prettier specific dependencies",
       "groupName": "Prettier",
-      "matchPackagePrefixes": [
-        "prettier"
+      "matchPackageNames": [
+        "prettier**"
       ]
     },
     {
       "description": "Group Babel specific dependencies",
       "groupName": "Babel",
-      "matchPackagePrefixes": [
-        "@babel",
-        "babel"
+      "matchPackageNames": [
+        "@babel**",
+        "babel**"
       ]
     },
     {
       "description": "Group PostCSS specific dependencies",
       "groupName": "PostCSS",
-      "matchPackagePrefixes": [
-        "postcss"
+      "matchPackageNames": [
+        "postcss**"
       ]
     },
     {
@@ -102,32 +96,26 @@
     {
       "description": "Group Vitest specific dependencies",
       "groupName": "Vitest",
-      "matchPackagePrefixes": [
-        "@vitest"
-      ],
       "matchPackageNames": [
+        "@vitest**",
         "vitest"
       ]
     },
     {
       "description": "Group Webpack specific dependencies",
       "groupName": "Webpack",
-      "matchPackagePrefixes": [
-        "webpack"
-      ],
-      "matchPackagePatterns": [
-        "-webpack-plugin$",
-        "-loader$"
-      ],
       "matchPackageNames": [
+        "webpack**",
+        "/-webpack-plugin$/",
+        "/-loader$/",
         "mini-css-extract-plugin"
       ]
     },
     {
       "description": "Group font specific dependencies",
       "groupName": "Fonts",
-      "matchPackagePrefixes": [
-        "@fontsource"
+      "matchPackageNames": [
+        "@fontsource**"
       ]
     }
   ]

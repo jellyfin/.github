@@ -16,55 +16,53 @@
     {
       "description": "Group Kotlin specific dependencies",
       "groupName": "Kotlin",
-      "matchPackagePrefixes": [
-        "org.jetbrains.kotlin"
-      ],
       "matchPackageNames": [
+        "org.jetbrains.kotlin*",
         "com.google.devtools.ksp"
       ]
     },
     {
       "description": "Group Detekt specific dependencies",
       "groupName": "detekt",
-      "matchPackagePrefixes": [
-        "io.gitlab.arturbosch.detekt"
+      "matchPackageNames": [
+        "io.gitlab.arturbosch.detekt*"
       ]
     },
     {
       "description": "Group Kotest specific dependencies",
       "groupName": "kotest",
-      "matchPackagePrefixes": [
-        "io.kotest"
+      "matchPackageNames": [
+        "io.kotest*"
       ]
     },
     {
       "description": "Group AboutLibraries specific dependencies",
       "groupName": "aboutlibraries",
-      "matchPackagePrefixes": [
-        "com.mikepenz.aboutlibraries",
-        "com.mikepenz:aboutlibraries"
+      "matchPackageNames": [
+        "com.mikepenz.aboutlibraries*",
+        "com.mikepenz:aboutlibraries*"
       ]
     },
     {
       "description": "Group androidx.media3 specific dependencies",
       "groupName": "androidx.media3",
-      "matchPackagePrefixes": [
-        "androidx.media3",
-        "org.jellyfin.media3:media3-ffmpeg-decoder"
+      "matchPackageNames": [
+        "androidx.media3*",
+        "org.jellyfin.media3:media3-ffmpeg-decoder*"
       ]
     },
     {
       "description": "Group Koin specific dependencies",
       "groupName": "koin",
-      "matchPackagePrefixes": [
-        "io.insert-koin"
+      "matchPackageNames": [
+        "io.insert-koin*"
       ]
     },
     {
       "description": "Group androidx.compose specific dependencies",
       "groupName": "androidx.compose",
-      "matchPackagePrefixes": [
-        "androidx.compose"
+      "matchPackageNames": [
+        "androidx.compose*"
       ]
     }
   ]

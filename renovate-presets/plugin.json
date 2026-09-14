@@ -19,6 +19,13 @@
         "^System\\."
       ],
       "enabled": false
+    },
+    {
+      "description": "Group Jellyfin",
+      "groupName": "Jellyfin {{newVersion}}",
+      "matchPackageNames": [
+          "Jellyfin.*"
+      ]
     }
   ]
 }

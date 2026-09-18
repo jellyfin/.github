@@ -14,11 +14,18 @@
     {
       "description": "Ignore Microsoft dependencies",
       "matchDatasources": ["nuget"],
-      "matchPackagePatterns": [
-        "^Microsoft\\.",
-        "^System\\."
+      "matchPackageNames": [
+        "/^Microsoft\\./",
+        "/^System\\./"
       ],
       "enabled": false
+    },
+    {
+      "description": "Group Jellyfin",
+      "groupName": "Jellyfin {{newVersion}}",
+      "matchPackageNames": [
+          "Jellyfin.*"
+      ]
     }
   ]
 }

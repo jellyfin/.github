@@ -22,7 +22,8 @@
     },
     {
       "description": "Group Jellyfin",
-      "groupName": "Jellyfin {{newVersion}}",
+      "groupName": "Jellyfin",
+      "groupSlug": "jellyfin-{{newVersion}}",
       "matchPackageNames": [
           "Jellyfin.*"
       ]
